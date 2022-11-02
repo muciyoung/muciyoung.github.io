@@ -1,0 +1,12 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>/*配置底部导航栏*/
+/*#footer-wrap{*/
+/*    background: lightskyblue;*/
+/*    opacity: 0.2;*/
+/*}*/
+#card-info-btn{
+    background: lightskyblue !important;
+}
+#card-info-btn:hover{
+    background: mediumpurple !important;
+}
+/*配置备案信息*/

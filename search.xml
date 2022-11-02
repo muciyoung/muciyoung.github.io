@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>picgo图床搭建</title>
+      <link href="/archives/56c99a67.html"/>
+      <url>/archives/56c99a67.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul><li>这是一个picgo图床的测试<br><img src="https://cdn.jsdelivr.net/gh/muciyoung/picgo_blog@main/uPic/LwpEwZ.png" alt="LwpEwZ"></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> picgo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> picgo图床 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于Hexo的那些事</title>
+      <link href="/archives/f1820cfc.html"/>
+      <url>/archives/f1820cfc.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="关于hexo博客通过git上传源码到仓库报错及解决办法"><a href="#关于hexo博客通过git上传源码到仓库报错及解决办法" class="headerlink" title="关于hexo博客通过git上传源码到仓库报错及解决办法"></a>关于hexo博客通过git上传源码到仓库报错及解决办法</h3><h4 id="请求超时"><a href="#请求超时" class="headerlink" title="请求超时"></a>请求超时</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://github.com/muciyoung/blog.git/&#x27;: Failed to connect to github.com port 443: Operation timed out</span><br></pre></td></tr></table></figure><ul><li>网络原因，多上传几次就好了</li></ul><h3 id="远程源已存在"><a href="#远程源已存在" class="headerlink" title="远程源已存在"></a>远程源已存在</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">error: remote origin already exists.</span><br></pre></td></tr></table></figure><ul><li>解决办法</li><li>先执行<code>git remote  rm origin</code>删除源文件，再执行<code> git remote add origin [远程仓库地址]</code>，最后执行<code> git push -u origin main</code></li></ul><h3 id="说说我在上传中遇到的问题"><a href="#说说我在上传中遇到的问题" class="headerlink" title="说说我在上传中遇到的问题"></a>说说我在上传中遇到的问题</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://github.com/muciyoung/blog.git/&#x27;: LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 </span><br><span class="line"></span><br></pre></td></tr></table></figure><ul><li>解决方案</li><li>执行<code> git config --global http.sslVerify &quot;false&quot;</code>,再重新push:<code> git push -u origin main</code>,如下，最终上传成功！</li><li><img src="/../img/error01.png" alt="img.png"></li><li><code>这是一个GitHub上传测试</code></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/archives/4a17b156.html"/>
+      <url>/archives/4a17b156.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hello world </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Helloworld </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>演示</title>
+      <link href="/archives/177574ba.html"/>
+      <url>/archives/177574ba.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="代码块演示"><a href="#代码块演示" class="headerlink" title="代码块演示"></a>代码块演示</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Welcome to muci&#x27;s Blog&quot;</span>)</span><br></pre></td></tr></table></figure><h3 id="标签外挂演示"><a href="#标签外挂演示" class="headerlink" title="标签外挂演示"></a>标签外挂演示</h3><div class="note simple"><p>默认提示块标签</p></div><div class="note default simple"><p>default 提示块标签</p></div><div class="note primary simple"><p>primary 提示块标签</p></div><div class="note success simple"><p>success 提示块标签</p></div><div class="note info simple"><p>info 提示块标签</p></div><div class="note warning simple"><p>warning 提示块标签</p></div><div class="note danger simple"><p>danger 提示块标签</p></div><h3 id="标签外挂演示2"><a href="#标签外挂演示2" class="headerlink" title="标签外挂演示2"></a>标签外挂演示2</h3><div class="note no-icon flat"><p>默认提示块标签</p></div><div class="note default no-icon flat"><p>default 提示块标签</p></div><div class="note primary no-icon flat"><p>primary 提示块标签</p></div><div class="note success no-icon flat"><p>success 提示块标签</p></div><div class="note info no-icon flat"><p>info 提示块标签</p></div><div class="note warning no-icon flat"><p>warning 提示块标签</p></div><div class="note danger no-icon flat"><p>danger 提示块标签</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hello world </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 演示 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>公告</title>
+      <link href="/archives/be82d226.html"/>
+      <url>/archives/be82d226.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="很高兴见到你"><a href="#很高兴见到你" class="headerlink" title="很高兴见到你"></a>很高兴见到你</h3><ul><li>谢谢大家的访问</li><li>博客还在优化中</li><li>敬请期待…</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
