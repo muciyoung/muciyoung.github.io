@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>scrapy框架的使用</title>
+      <link href="/archives/7f95a356.html"/>
+      <url>/archives/7f95a356.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="scrapy框架的使用"><a href="#scrapy框架的使用" class="headerlink" title="scrapy框架的使用"></a>scrapy框架的使用</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul><li>打开终端，输入<code>pip install scrapy</code>，回车，等待安装完成✅</li></ul><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><ul><li><code>scrapy startproject 项目名 </code></li></ul><h3 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h3><ul><li>定位到  <code>spiders</code>目录，输入命令<code>scrapy genspider 文件名 爬取的网页域名</code></li><li>示例代码如下：<br><code>scrapy genspider baidu www.baidu.com</code></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> python爬虫教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> scrapy框架的使用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python爬虫教程</title>
       <link href="/archives/1ca10182.html"/>
       <url>/archives/1ca10182.html</url>
