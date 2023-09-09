@@ -194,6 +194,13 @@
   </url>
   
   <url>
+    <loc>https://muciyoung.github.io/tags/%E7%94%A8%E6%88%B7%E4%B8%8E%E6%9D%83%E9%99%90/</loc>
+    <lastmod>2023-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://muciyoung.github.io/tags/springboot/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -201,7 +208,14 @@
   </url>
   
   <url>
-    <loc>https://muciyoung.github.io/tags/%E7%94%A8%E6%88%B7%E4%B8%8E%E6%9D%83%E9%99%90/</loc>
+    <loc>https://muciyoung.github.io/tags/python%E7%88%AC%E8%99%AB%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://muciyoung.github.io/tags/scrapy%E6%A1%86%E6%9E%B6%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -223,20 +237,6 @@
   
   <url>
     <loc>https://muciyoung.github.io/tags/%E6%95%B0%E7%BB%84/</loc>
-    <lastmod>2023-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://muciyoung.github.io/tags/python%E7%88%AC%E8%99%AB%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://muciyoung.github.io/tags/scrapy%E6%A1%86%E6%9E%B6%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -266,6 +266,13 @@
   </url>
   
   <url>
+    <loc>https://muciyoung.github.io/categories/mysql/</loc>
+    <lastmod>2023-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://muciyoung.github.io/categories/springboot/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -273,7 +280,7 @@
   </url>
   
   <url>
-    <loc>https://muciyoung.github.io/categories/mysql/</loc>
+    <loc>https://muciyoung.github.io/categories/python%E7%88%AC%E8%99%AB%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -288,13 +295,6 @@
   
   <url>
     <loc>https://muciyoung.github.io/categories/%E6%95%B0%E7%BB%84%E5%BA%94%E7%94%A8/</loc>
-    <lastmod>2023-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://muciyoung.github.io/categories/python%E7%88%AC%E8%99%AB%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
