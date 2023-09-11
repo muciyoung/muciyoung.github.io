@@ -182,7 +182,7 @@
 
   
   <url>
-    <loc>https://muciyoung.github.io/tags/springboot/</loc>
+    <loc>https://muciyoung.github.io/tags/HelloWorld/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -196,14 +196,7 @@
   </url>
   
   <url>
-    <loc>https://muciyoung.github.io/tags/%E6%BC%94%E7%A4%BA/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://muciyoung.github.io/tags/HelloWorld/</loc>
+    <loc>https://muciyoung.github.io/tags/springboot/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -231,7 +224,7 @@
   </url>
   
   <url>
-    <loc>https://muciyoung.github.io/tags/%E6%95%B0%E7%BB%84/</loc>
+    <loc>https://muciyoung.github.io/tags/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -245,7 +238,7 @@
   </url>
   
   <url>
-    <loc>https://muciyoung.github.io/tags/scrapy%E6%A1%86%E6%9E%B6%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <loc>https://muciyoung.github.io/tags/%E6%95%B0%E7%BB%84/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -258,10 +251,17 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://muciyoung.github.io/tags/scrapy%E6%A1%86%E6%9E%B6%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://muciyoung.github.io/categories/springboot/</loc>
+    <loc>https://muciyoung.github.io/categories/Hello-World/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -275,7 +275,7 @@
   </url>
   
   <url>
-    <loc>https://muciyoung.github.io/categories/Hello-World/</loc>
+    <loc>https://muciyoung.github.io/categories/springboot/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
