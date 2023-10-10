@@ -4824,6 +4824,38 @@ blockquote.pullquote.right {
   height: 1.1em;
   vertical-align: text-bottom;
 }
+#article-container .inline-img {
+  display: inline;
+  margin: 0 3px;
+  height: 1.1em;
+  vertical-align: text-bottom;
+}
+.hl-label {
+  padding: 2px 4px;
+  border-radius: 3px;
+  color: #fff;
+}
+.hl-label.default {
+  background-color: #777;
+}
+.hl-label.blue {
+  background-color: #428bca;
+}
+.hl-label.pink {
+  background-color: #ff69b4;
+}
+.hl-label.red {
+  background-color: #f00;
+}
+.hl-label.purple {
+  background-color: #6f42c1;
+}
+.hl-label.orange {
+  background-color: #ff8c00;
+}
+.hl-label.green {
+  background-color: #5cb85c;
+}
 .hl-label {
   padding: 2px 4px;
   border-radius: 3px;

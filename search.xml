@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>解构赋值-ES6</title>
+      <link href="/archives/11267a5c.html"/>
+      <url>/archives/11267a5c.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="解构赋值"><a href="#解构赋值" class="headerlink" title="解构赋值"></a>解构赋值</h2><p>给出如下对象</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="keyword">const</span> <span class="title class_">Obj1</span> = &#123;</span><br><span class="line">        <span class="attr">name</span>:<span class="string">&#x27;张三&#x27;</span>,</span><br><span class="line">        <span class="attr">age</span>:<span class="number">14</span>,</span><br><span class="line">        <span class="attr">hobby</span>:&#123;</span><br><span class="line">            <span class="attr">title</span>:<span class="string">&#x27;羽毛球&#x27;</span>,</span><br><span class="line">            <span class="attr">en</span>:<span class="string">&#x27;badminton&#x27;</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><ul><li><p>获取<code>name</code>和<code>age</code>属性</p><ul><li><p>正常写法</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">const name = Obj1.name</span><br><span class="line">const age = Obj1.age</span><br><span class="line"></span><br></pre></td></tr></table></figure></li><li><p>解构赋值写法</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//解构赋值name,age</span><br><span class="line">const &#123;name,age&#125; = Obj1</span><br></pre></td></tr></table></figure></li></ul></li><li><p>多级解构赋值</p><ul><li><p>获取hobby中的title和en属性</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//获取hobby中的title和en属性</span></span><br><span class="line"><span class="keyword">const</span> &#123;<span class="attr">hobby</span>:&#123;title,en&#125;&#125; = <span class="title class_">Obj1</span></span><br></pre></td></tr></table></figure></li></ul></li><li><p>函数中的应用</p><ul><li><p>普通写法</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">func</span>(<span class="params">Obj</span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;title值为(普通写法)：&#x27;</span>,<span class="title class_">Obj</span>.<span class="property">hobby</span>.<span class="property">title</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//传入上面的Obj1对象</span></span><br><span class="line"><span class="title function_">func</span>(<span class="title class_">Obj1</span>)</span><br></pre></td></tr></table></figure></li><li><p>解构写法</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">func1</span>(<span class="params">&#123;hobby:&#123;title&#125;&#125;</span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;title值为(解构赋值写法)：&#x27;</span>,title)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//同样传入上面的Obj1对象</span></span><br><span class="line"><span class="title function_">func1</span>(<span class="title class_">Obj1</span>)</span><br></pre></td></tr></table></figure></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> ES6语法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 解构赋值-ES6 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>sort()方法详解</title>
       <link href="/archives/cee62fbd.html"/>
       <url>/archives/cee62fbd.html</url>
