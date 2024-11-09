@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>常用命令速查</title>
+      <link href="/archives/279a128e.html"/>
+      <url>/archives/279a128e.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Shell-命令"><a href="#Shell-命令" class="headerlink" title="Shell 命令"></a>Shell 命令</h2><h3 id="清屏"><a href="#清屏" class="headerlink" title="清屏"></a>清屏</h3><p>清除终端显示内容：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">clear</span><br></pre></td></tr></table></figure><hr><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><h3 id="查看已安装的包"><a href="#查看已安装的包" class="headerlink" title="查看已安装的包"></a>查看已安装的包</h3><p>列出当前环境中已安装的所有 Python 包及其版本：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 list</span><br></pre></td></tr></table></figure><h3 id="创建虚拟环境"><a href="#创建虚拟环境" class="headerlink" title="创建虚拟环境"></a>创建虚拟环境</h3><p>在当前目录下创建一个名为 <code>myenv</code> 的 Python 虚拟环境：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 -m venv myenv</span><br></pre></td></tr></table></figure><h3 id="激活虚拟环境"><a href="#激活虚拟环境" class="headerlink" title="激活虚拟环境"></a>激活虚拟环境</h3><p>激活虚拟环境后，终端会显示 <code>(venv)</code>，此时可以直接使用 <code>pip</code>：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> myenv/bin/activate</span><br></pre></td></tr></table></figure><h3 id="关闭虚拟环境"><a href="#关闭虚拟环境" class="headerlink" title="关闭虚拟环境"></a>关闭虚拟环境</h3><p>退出虚拟环境并恢复到系统 Python 环境：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deactivate</span><br></pre></td></tr></table></figure><hr><h2 id="重新加载配置文件"><a href="#重新加载配置文件" class="headerlink" title="重新加载配置文件"></a>重新加载配置文件</h2><p>在修改环境变量后，重新加载 <code>.bash_profile</code> 或 <code>.zshrc</code> 文件以应用更改：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure><p>或</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br></pre></td></tr></table></figure><hr><h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><h3 id="查看当前使用的-Java-版本"><a href="#查看当前使用的-Java-版本" class="headerlink" title="查看当前使用的 Java 版本"></a>查看当前使用的 Java 版本</h3><p>显示当前正在使用的 Java 版本信息：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -version</span><br></pre></td></tr></table></figure><h3 id="查看所有已安装的-JDK-版本"><a href="#查看所有已安装的-JDK-版本" class="headerlink" title="查看所有已安装的 JDK 版本"></a>查看所有已安装的 JDK 版本</h3><p>列出所有已安装的 JDK 版本：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/libexec/java_home -V</span><br></pre></td></tr></table></figure><h3 id="临时切换-JDK-版本"><a href="#临时切换-JDK-版本" class="headerlink" title="临时切换 JDK 版本"></a>临时切换 JDK 版本</h3><h4 id="切换到-JDK-1-8"><a href="#切换到-JDK-1-8" class="headerlink" title="切换到 JDK 1.8"></a>切换到 JDK 1.8</h4><p>将 JDK 版本临时切换为 1.8：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> JAVA_HOME=$(/usr/libexec/java_home -v 1.8)</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span></span><br></pre></td></tr></table></figure><h4 id="切换到-JDK-17"><a href="#切换到-JDK-17" class="headerlink" title="切换到 JDK 17"></a>切换到 JDK 17</h4><p>将 JDK 版本临时切换为 17：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> JAVA_HOME=$(/usr/libexec/java_home -v 17)</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span></span><br></pre></td></tr></table></figure><hr><h2 id="Java-文件操作"><a href="#Java-文件操作" class="headerlink" title="Java 文件操作"></a>Java 文件操作</h2><h3 id="编译-Java-文件"><a href="#编译-Java-文件" class="headerlink" title="编译 Java 文件"></a>编译 Java 文件</h3><p>编译 Java 文件生成 <code>.class</code> 字节码文件：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac MyProgram.java</span><br></pre></td></tr></table></figure><h3 id="运行-Java-程序"><a href="#运行-Java-程序" class="headerlink" title="运行 Java 程序"></a>运行 Java 程序</h3><p>运行已编译的 Java 程序：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java MyProgram</span><br></pre></td></tr></table></figure><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 命令 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> shell, python, java, 环境变量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解构赋值-ES6</title>
       <link href="/archives/11267a5c.html"/>
       <url>/archives/11267a5c.html</url>
